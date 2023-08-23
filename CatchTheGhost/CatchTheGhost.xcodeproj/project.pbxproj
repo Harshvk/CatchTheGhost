@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9283E8862A9650A200DA5E20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9283E8852A9650A200DA5E20 /* AppDelegate.swift */; };
+		9283E8882A9650A200DA5E20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9283E8872A9650A200DA5E20 /* SceneDelegate.swift */; };
+		9283E88A2A9650A200DA5E20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9283E8892A9650A200DA5E20 /* ViewController.swift */; };
+		9283E88D2A9650A200DA5E20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9283E88B2A9650A200DA5E20 /* Main.storyboard */; };
+		9283E88F2A9650A200DA5E20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9283E88E2A9650A200DA5E20 /* Assets.xcassets */; };
+		9283E8922A9650A200DA5E20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9283E8902A9650A200DA5E20 /* LaunchScreen.storyboard */; };
+		9283E89D2A9650A200DA5E20 /* CatchTheGhostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9283E89C2A9650A200DA5E20 /* CatchTheGhostTests.swift */; };
+		9283E8A72A9650A200DA5E20 /* CatchTheGhostUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9283E8A62A9650A200DA5E20 /* CatchTheGhostUITests.swift */; };
+		9283E8A92A9650A200DA5E20 /* CatchTheGhostUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9283E8A82A9650A200DA5E20 /* CatchTheGhostUITestsLaunchTests.swift */; };
+		9283E8B62A9653CA00DA5E20 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9283E8B52A9653CA00DA5E20 /* GameViewController.swift */; };
+		9283E8B92A96557F00DA5E20 /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9283E8B72A96557F00DA5E20 /* GridCell.swift */; };
+		9283E8BA2A96557F00DA5E20 /* GridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9283E8B82A96557F00DA5E20 /* GridCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9283E8992A9650A200DA5E20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9283E87A2A9650A200DA5E20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9283E8812A9650A200DA5E20;
+			remoteInfo = CatchTheGhost;
+		};
+		9283E8A32A9650A200DA5E20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9283E87A2A9650A200DA5E20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9283E8812A9650A200DA5E20;
+			remoteInfo = CatchTheGhost;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9283E8822A9650A200DA5E20 /* CatchTheGhost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchTheGhost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9283E8852A9650A200DA5E20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9283E8872A9650A200DA5E20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9283E8892A9650A200DA5E20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9283E88C2A9650A200DA5E20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9283E88E2A9650A200DA5E20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9283E8912A9650A200DA5E20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9283E8932A9650A200DA5E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9283E8982A9650A200DA5E20 /* CatchTheGhostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchTheGhostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9283E89C2A9650A200DA5E20 /* CatchTheGhostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheGhostTests.swift; sourceTree = "<group>"; };
+		9283E8A22A9650A200DA5E20 /* CatchTheGhostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchTheGhostUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9283E8A62A9650A200DA5E20 /* CatchTheGhostUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheGhostUITests.swift; sourceTree = "<group>"; };
+		9283E8A82A9650A200DA5E20 /* CatchTheGhostUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchTheGhostUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9283E8B52A9653CA00DA5E20 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9283E8B72A96557F00DA5E20 /* GridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
+		9283E8B82A96557F00DA5E20 /* GridCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9283E87F2A9650A200DA5E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9283E8952A9650A200DA5E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9283E89F2A9650A200DA5E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9283E8792A9650A200DA5E20 = {
+			isa = PBXGroup;
+			children = (
+				9283E8842A9650A200DA5E20 /* CatchTheGhost */,
+				9283E89B2A9650A200DA5E20 /* CatchTheGhostTests */,
+				9283E8A52A9650A200DA5E20 /* CatchTheGhostUITests */,
+				9283E8832A9650A200DA5E20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9283E8832A9650A200DA5E20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9283E8822A9650A200DA5E20 /* CatchTheGhost.app */,
+				9283E8982A9650A200DA5E20 /* CatchTheGhostTests.xctest */,
+				9283E8A22A9650A200DA5E20 /* CatchTheGhostUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9283E8842A9650A200DA5E20 /* CatchTheGhost */ = {
+			isa = PBXGroup;
+			children = (
+				9283E8852A9650A200DA5E20 /* AppDelegate.swift */,
+				9283E8872A9650A200DA5E20 /* SceneDelegate.swift */,
+				9283E8892A9650A200DA5E20 /* ViewController.swift */,
+				9283E8B52A9653CA00DA5E20 /* GameViewController.swift */,
+				9283E8B72A96557F00DA5E20 /* GridCell.swift */,
+				9283E8B82A96557F00DA5E20 /* GridCell.xib */,
+				9283E88B2A9650A200DA5E20 /* Main.storyboard */,
+				9283E88E2A9650A200DA5E20 /* Assets.xcassets */,
+				9283E8902A9650A200DA5E20 /* LaunchScreen.storyboard */,
+				9283E8932A9650A200DA5E20 /* Info.plist */,
+			);
+			path = CatchTheGhost;
+			sourceTree = "<group>";
+		};
+		9283E89B2A9650A200DA5E20 /* CatchTheGhostTests */ = {
+			isa = PBXGroup;
+			children = (
+				9283E89C2A9650A200DA5E20 /* CatchTheGhostTests.swift */,
+			);
+			path = CatchTheGhostTests;
+			sourceTree = "<group>";
+		};
+		9283E8A52A9650A200DA5E20 /* CatchTheGhostUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9283E8A62A9650A200DA5E20 /* CatchTheGhostUITests.swift */,
+				9283E8A82A9650A200DA5E20 /* CatchTheGhostUITestsLaunchTests.swift */,
+			);
+			path = CatchTheGhostUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9283E8812A9650A200DA5E20 /* CatchTheGhost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9283E8AC2A9650A200DA5E20 /* Build configuration list for PBXNativeTarget "CatchTheGhost" */;
+			buildPhases = (
+				9283E87E2A9650A200DA5E20 /* Sources */,
+				9283E87F2A9650A200DA5E20 /* Frameworks */,
+				9283E8802A9650A200DA5E20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatchTheGhost;
+			productName = CatchTheGhost;
+			productReference = 9283E8822A9650A200DA5E20 /* CatchTheGhost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9283E8972A9650A200DA5E20 /* CatchTheGhostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9283E8AF2A9650A200DA5E20 /* Build configuration list for PBXNativeTarget "CatchTheGhostTests" */;
+			buildPhases = (
+				9283E8942A9650A200DA5E20 /* Sources */,
+				9283E8952A9650A200DA5E20 /* Frameworks */,
+				9283E8962A9650A200DA5E20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9283E89A2A9650A200DA5E20 /* PBXTargetDependency */,
+			);
+			name = CatchTheGhostTests;
+			productName = CatchTheGhostTests;
+			productReference = 9283E8982A9650A200DA5E20 /* CatchTheGhostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9283E8A12A9650A200DA5E20 /* CatchTheGhostUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9283E8B22A9650A200DA5E20 /* Build configuration list for PBXNativeTarget "CatchTheGhostUITests" */;
+			buildPhases = (
+				9283E89E2A9650A200DA5E20 /* Sources */,
+				9283E89F2A9650A200DA5E20 /* Frameworks */,
+				9283E8A02A9650A200DA5E20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9283E8A42A9650A200DA5E20 /* PBXTargetDependency */,
+			);
+			name = CatchTheGhostUITests;
+			productName = CatchTheGhostUITests;
+			productReference = 9283E8A22A9650A200DA5E20 /* CatchTheGhostUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9283E87A2A9650A200DA5E20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					9283E8812A9650A200DA5E20 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					9283E8972A9650A200DA5E20 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 9283E8812A9650A200DA5E20;
+					};
+					9283E8A12A9650A200DA5E20 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 9283E8812A9650A200DA5E20;
+					};
+				};
+			};
+			buildConfigurationList = 9283E87D2A9650A200DA5E20 /* Build configuration list for PBXProject "CatchTheGhost" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9283E8792A9650A200DA5E20;
+			productRefGroup = 9283E8832A9650A200DA5E20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9283E8812A9650A200DA5E20 /* CatchTheGhost */,
+				9283E8972A9650A200DA5E20 /* CatchTheGhostTests */,
+				9283E8A12A9650A200DA5E20 /* CatchTheGhostUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9283E8802A9650A200DA5E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9283E8922A9650A200DA5E20 /* LaunchScreen.storyboard in Resources */,
+				9283E88F2A9650A200DA5E20 /* Assets.xcassets in Resources */,
+				9283E88D2A9650A200DA5E20 /* Main.storyboard in Resources */,
+				9283E8BA2A96557F00DA5E20 /* GridCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9283E8962A9650A200DA5E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9283E8A02A9650A200DA5E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9283E87E2A9650A200DA5E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9283E8B62A9653CA00DA5E20 /* GameViewController.swift in Sources */,
+				9283E88A2A9650A200DA5E20 /* ViewController.swift in Sources */,
+				9283E8862A9650A200DA5E20 /* AppDelegate.swift in Sources */,
+				9283E8882A9650A200DA5E20 /* SceneDelegate.swift in Sources */,
+				9283E8B92A96557F00DA5E20 /* GridCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9283E8942A9650A200DA5E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9283E89D2A9650A200DA5E20 /* CatchTheGhostTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9283E89E2A9650A200DA5E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9283E8A92A9650A200DA5E20 /* CatchTheGhostUITestsLaunchTests.swift in Sources */,
+				9283E8A72A9650A200DA5E20 /* CatchTheGhostUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9283E89A2A9650A200DA5E20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9283E8812A9650A200DA5E20 /* CatchTheGhost */;
+			targetProxy = 9283E8992A9650A200DA5E20 /* PBXContainerItemProxy */;
+		};
+		9283E8A42A9650A200DA5E20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9283E8812A9650A200DA5E20 /* CatchTheGhost */;
+			targetProxy = 9283E8A32A9650A200DA5E20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9283E88B2A9650A200DA5E20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9283E88C2A9650A200DA5E20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9283E8902A9650A200DA5E20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9283E8912A9650A200DA5E20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9283E8AA2A9650A200DA5E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9283E8AB2A9650A200DA5E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9283E8AD2A9650A200DA5E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatchTheGhost/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CatchTheGhost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9283E8AE2A9650A200DA5E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatchTheGhost/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CatchTheGhost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9283E8B02A9650A200DA5E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CatchTheGhostTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatchTheGhost.app/CatchTheGhost";
+			};
+			name = Debug;
+		};
+		9283E8B12A9650A200DA5E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CatchTheGhostTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CatchTheGhost.app/CatchTheGhost";
+			};
+			name = Release;
+		};
+		9283E8B32A9650A200DA5E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CatchTheGhostUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatchTheGhost;
+			};
+			name = Debug;
+		};
+		9283E8B42A9650A200DA5E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CatchTheGhostUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatchTheGhost;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9283E87D2A9650A200DA5E20 /* Build configuration list for PBXProject "CatchTheGhost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9283E8AA2A9650A200DA5E20 /* Debug */,
+				9283E8AB2A9650A200DA5E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9283E8AC2A9650A200DA5E20 /* Build configuration list for PBXNativeTarget "CatchTheGhost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9283E8AD2A9650A200DA5E20 /* Debug */,
+				9283E8AE2A9650A200DA5E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9283E8AF2A9650A200DA5E20 /* Build configuration list for PBXNativeTarget "CatchTheGhostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9283E8B02A9650A200DA5E20 /* Debug */,
+				9283E8B12A9650A200DA5E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9283E8B22A9650A200DA5E20 /* Build configuration list for PBXNativeTarget "CatchTheGhostUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9283E8B32A9650A200DA5E20 /* Debug */,
+				9283E8B42A9650A200DA5E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9283E87A2A9650A200DA5E20 /* Project object */;
+}
